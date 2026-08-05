@@ -1,0 +1,149 @@
+# Windows Security Hardening Lab
+
+## Overview
+
+This project documents a hands-on Windows security hardening lab completed in an authorized virtual environment.
+
+The goal was to reduce common security risks by reviewing and improving account security, operating system updates, firewall settings, antivirus protection, logging, permissions, and unnecessary services.
+
+## Lab Environment
+
+- Oracle VirtualBox
+- Windows 10 or Windows 11 virtual machine
+- Administrator account for authorized configuration
+- Isolated personal lab environment
+
+## Objectives
+
+- Review Windows security settings
+- Strengthen local account protection
+- Enable and verify Windows Defender
+- Confirm Windows Firewall is active
+- Install operating system security updates
+- Review user and administrator privileges
+- Enable useful security logging
+- Disable unnecessary or insecure features
+- Document all changes and lessons learned
+
+## Security Checklist
+
+### 1. Windows Updates
+
+- Checked for available Windows updates
+- Installed security and quality updates
+- Confirmed automatic updates were enabled
+
+### 2. Microsoft Defender
+
+- Confirmed real-time protection was enabled
+- Confirmed cloud-delivered protection was enabled
+- Updated malware definitions
+- Performed a quick security scan
+
+### 3. Windows Firewall
+
+- Confirmed the firewall was enabled for:
+- Domain networks
+- Private networks
+- Public networks
+- Reviewed permitted applications
+- Removed unnecessary firewall exceptions where appropriate
+
+### 4. User Account Security
+
+- Reviewed local user accounts
+- Confirmed standard users did not have unnecessary administrator privileges
+- Used a strong password
+- Reviewed password and sign-in settings
+- Confirmed User Account Control was enabled
+
+### 5. File and Folder Permissions
+
+- Reviewed permissions on selected folders
+- Removed unnecessary access where appropriate
+- Practiced the principle of least privilege
+
+### 6. Logging and Monitoring
+
+- Opened Windows Event Viewer
+- Reviewed Security, System, and Application logs
+- Identified successful and failed sign-in events
+- Documented important event IDs
+
+### 7. Unnecessary Features and Services
+
+- Reviewed startup applications
+- Disabled unnecessary startup programs
+- Reviewed optional Windows features
+- Documented services without disabling critical system functions
+
+## Tools Used
+
+- Windows Security
+- Microsoft Defender
+- Windows Defender Firewall
+- Windows Update
+- Event Viewer
+- Local Users and Groups
+- Task Manager
+- PowerShell
+- Command Prompt
+
+## Screenshots
+
+Screenshots will be stored in the `screenshots` folder.
+
+Planned screenshots:
+
+1. Windows Security dashboard
+2. Windows Update status
+3. Microsoft Defender protection settings
+4. Firewall status
+5. User Account Control settings
+6. Event Viewer security logs
+7. Local user accounts
+8. Startup application review
+
+## Results
+
+The Windows virtual machine was reviewed and hardened using built-in security tools. The lab improved my understanding of endpoint protection, account management, logging, firewall configuration, system updates, and least-privilege access.
+
+## Security Recommendations
+
+- Keep Windows and installed applications updated
+- Use strong, unique passwords
+- Enable multifactor authentication where available
+- Avoid using an administrator account for routine activities
+- Keep Microsoft Defender and the firewall enabled
+- Review event logs regularly
+- Remove unused accounts and applications
+- Back up important files
+- Use disk encryption when appropriate
+
+## Skills Demonstrated
+
+- Windows administration
+- Endpoint security
+- Account and permission management
+- Firewall configuration
+- Security monitoring
+- Log analysis
+- Vulnerability reduction
+- Technical documentation
+- Defensive cybersecurity
+
+## Lessons Learned
+
+This lab demonstrated that effective security does not depend on one setting. Windows hardening requires multiple layers, including updates, endpoint protection, firewall rules, secure accounts, proper permissions, logging, and regular monitoring.
+
+## Ethical Notice
+
+All activities documented in this project were completed on systems owned by me or in an isolated virtual lab where I had explicit authorization.
+
+## Author
+
+**Josiah Davis-Fleurinord**
+
+Cybersecurity Student | CompTIA A+ Certified | Associate Degree in Computer Science
+
+
